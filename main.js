@@ -340,9 +340,8 @@ Apify.main(async () => {
     const crawler = new Apify.PuppeteerCrawler({
         requestList,
         maxRequestRetries: input.maxRequestRetries || DEFAULT_RETRY_COUNT,
-
+        puppeteerPoolOptions: { retireInstanceAfterRequestCount: 1, },
         // Use new browser for every domain
-        retireInstanceAfterRequestCount: 1,
 
         launchPuppeteerOptions: {
             defaultViewport: { width: 900, height: 800 },
