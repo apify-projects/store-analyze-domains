@@ -5,7 +5,8 @@
 	"main": "main.js",
 	"dependencies": {
 		"apify": "0.11.4",
-		"content-type": "^1.0.4"
+		"content-type": "^1.0.4",
+        "puppeteer": "*"
 	},
 	"devDependencies": {},
 	"scripts": {
