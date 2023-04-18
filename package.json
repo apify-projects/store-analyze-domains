@@ -6,7 +6,9 @@
 	"dependencies": {
 		"apify": "0.22",
 		"content-type": "^1.0.4",
-        "puppeteer": "*"
+        "puppeteer": "*",
+        "apify-shared": "0.7.6",
+        "underscore": "1.13.6"
 	},
 	"devDependencies": {},
 	"scripts": {
